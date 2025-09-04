@@ -3,3 +3,36 @@
     text-align: center;
     margin: 0 auto;
 }
+.body{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    font-size: 20px;
+    /* width: 5px; */
+    /* height: auto; */
+    margin: auto;
+    
+}
+.first{
+    background-color: navajowhite;
+    display:flex;
+    flex-direction:row;
+     /* width: 300px;
+    height:100vh; */
+    /* gap:5px; */
+    border: 0;
+    padding: 0;
+    
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+#name{
+margin: 0;
+
+}
+#img{
+width: 70px;
+border-radius: 50%;
+}
